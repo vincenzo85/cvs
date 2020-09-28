@@ -90,7 +90,16 @@
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
             <div class="h4 mt-0 title">About</div>
-            <p>Ciao, sono Vincezo Di Franco, grazie per essere atterrato sulla pagina del mio profilo personale.</p>
+            <p>Ciao
+            <?php 
+            if ($_GET){
+
+              echo ' <strong>'. htmlspecialchars($_GET["name"]) . '</strong>,'; 
+            }else {
+              echo ',';
+            }
+            ?>  
+            sono Vincezo Di Franco, grazie per essere atterrato sulla pagina del mio profilo personale.</p>
             <p> Attualmente sono in cerca di lavoro come ingegnere elettrico o sviluppatore software.
                Sono appassionato di informatica, sin dai tempi dell'Università mentre gestivo diverse associazioni culturali, mi sono appassionato a Wordpress. 
                Da utilizzatore di Wordpress ho quindi iniziato ad approfondire l'argomento, ho svolto quindi i primi lavori per conto di piccole imprese, come B&B, bar e ristoranti.
