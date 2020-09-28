@@ -93,6 +93,7 @@
            
             <p>Ciao
             <?php 
+            
             if ($_GET){
 
               echo ' <strong>'. htmlspecialchars($_GET["name"]) . '</strong>,'; 
