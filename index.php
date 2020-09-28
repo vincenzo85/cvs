@@ -93,7 +93,7 @@
            
             <p>Ciao
             <?php 
-            
+
             if ($_GET){
 
               echo ' <strong>'. htmlspecialchars($_GET["name"]) . '</strong>,'; 
@@ -302,8 +302,9 @@
                       <div class="h4">Progetto innovativo</div>
                       <p>App Alexa</p>
                     </figcaption>
-                  </figure></a></div>
-				
+                  </figure></a>
+              </div>
+          
 				<!-- pop up 
 				
 	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalQuickView">Launch
@@ -516,6 +517,9 @@
 </div>			
 				<!-- pop up -->
             </div>
+         
+          
+                 
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
                   <figure class="cc-effect"><img src="images/facebook.png" alt="Image"/>
@@ -530,8 +534,25 @@
                       <div class="h4">App inventor</div>
                       <p>Android App</p>
                     </figcaption>
-                  </figure></a></div>
+                  </figure></a>
+              </div>
             </div>
+
+            
+            <div class="col-md-6">
+                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect">
+                  <iframe width="400" height="320" src="https://www.youtube.com/embed/IsmRZtQA-64" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </figure></a></div>
+                  </div>
+               
+            <div class="col-md-6">     
+                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect">
+                    <iframe width="400" height="320" src="https://www.youtube.com/embed/Jh_dYQBUsFs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </figure></a></div>
+                    </div>
+                  
           </div>
         </div>
       </div>
