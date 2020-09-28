@@ -124,7 +124,7 @@
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Cellulare:</strong></div>
-              <div class="col-sm-8">+3282591995</div>
+              <div class="col-sm-8">+393282591995</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Indirizzo:</strong></div>
