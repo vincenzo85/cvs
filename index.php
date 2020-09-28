@@ -105,7 +105,7 @@
             
             <p> Quello che vedi qui sotto è un podcast, realizzato qualche mese fa, in cui mi presento e presento il mio sito personale.</p>
 
-            <p> Piccola nota, l'intro musicale è stata creata da un software di intelligenza artificiale, AIVA, la frase iniziale invece è stata fatta tramite il motore vocale di google, spero che non risulti troppo "Esagerata" e non mi reputo un "Genio" la frase deriva dall'intro che ho sentito su un podcast relativo al content Mareting (Content Marketing Italia, di Beltrami).</p>
+            <p> Piccola nota, l'intro musicale è stata creata da un software di intelligenza artificiale, AIVA, <strong> (abbassa il volume del tuo computer prima di avviare il podcast) </strong>, la frase iniziale invece è stata fatta tramite il motore vocale di google, spero che non risulti troppo "Esagerata" e non mi reputo un "Genio" la frase deriva dall'intro che ho sentito su un podcast relativo al content Mareting (Content Marketing Italia, di Beltrami).</p>
             <div class="row mt-3 mb-3">
             <a class="spreaker-player" href="https://www.spreaker.com/episode/40038393" data-resource="episode_id=40038393" data-width="100%" data-height="200px" data-theme="light" data-playlist="false" data-playlist-continuous="false" data-autoplay="false" data-live-autoplay="false" data-chapters-image="true" data-episode-image-position="right" data-hide-logo="false" data-hide-likes="false" data-hide-comments="false" data-hide-sharing="false" data-hide-download="true">Ascolta "001 lo show di vincenzo chi sono" su Spreaker.</a>
             </div>
