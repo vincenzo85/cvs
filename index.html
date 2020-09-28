@@ -10,6 +10,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
 	 <!-- Hotjar Tracking Code for studiaveloce.it -->
 	   <!-- script ads -->
@@ -35,6 +36,10 @@
 </script>
   </head>
   <body id="top">
+
+    
+    <a class="button-vix" href="https://studiaveloce.it/cv/Dott-Vincenzo-Di-Franco.pdf">Download CV!</a>
+
     <header>
       <div class="profile-page sidebar-collapse">
         <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
@@ -842,6 +847,9 @@ Ho svolto le mie mansioni in autonomia, scegliendo le priorità e valutando caso
                     <p class="mb-0"><strong>Email</strong></p>
                     <a href="mailto:vincenzo.difranco@gmail.com">vincenzo.difranco@gmail.com</a>
                   </div>
+                  <a class="button-vix" href="https://studiaveloce.it/cv/Dott-Vincenzo-Di-Franco.pdf">Download CV!</a>
+<!-- 
+  <button type="submit" class="button-vix">Click me!</button> -->
                 </div>
               </div>
             </div>
@@ -867,5 +875,16 @@ Ho svolto le mie mansioni in autonomia, scegliendo le priorità e valutando caso
     <script src="js/now-ui-kit.js?v=1.1.0"></script>
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
+    <script>
+      $('.signupForm').hide();
+      $(".signupButton").click(function(){
+        $('.signupForm').show();
+      },function(){
+        $('.signupForm').show();
+      });
+      $(".signupXButton").click(function(){
+      $('.signupForm').hide();
+      });
+    </script>
   </body>
 </html>
